@@ -28,7 +28,7 @@ module.exports = {
         ],
         'semi': [
             'error',
-            'never'
+            'always'
         ],
         "eqeqeq": "error",
         "no-trailing-spaces": "error",
@@ -38,6 +38,7 @@ module.exports = {
         "arrow-spacing": [
             "error", { "before": true, "after": true }
         ],
-        "no-console": 0
+        "no-console": 0,
+        "linebreak-style": 0
     }
 }
